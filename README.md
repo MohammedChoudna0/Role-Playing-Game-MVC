@@ -17,27 +17,8 @@ Este proyecto consiste en la creación de una base de datos y una aplicación we
 - Eliminar criatura
 
 ## Estructura del proyecto 
-└───Role-Playing-Game-MVC
-    ├───app
-    │   ├───controllers
-    │   │   ├───creature
-    │   │   └───user
-    │   ├───models
-    │   │   └───validations
-    │   ├───private
-    │   │   └───views
-    │   │       └───creature
-    │   └───public
-    │       └───views
-    │           └───user
-    ├───assets
-    │   └───img
-    ├───lib
-    ├───persistence
-    │   ├───bd
-    │   ├───conf
-    │   └───DAO
-    └───utils
+![image](https://github.com/MohammedChoudna0/Role-Playing-Game-MVC/assets/117014262/a93a5ce1-4960-4bb4-93c9-16a9d635c5aa)
+
 # Estructura de Carpetas de la Aplicación
 
 - **app:** Esta es la carpeta principal de la aplicación. Contiene todas las carpetas y archivos necesarios para el funcionamiento de la aplicación.
