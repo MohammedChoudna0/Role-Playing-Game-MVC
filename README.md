@@ -43,6 +43,6 @@ Este proyecto consiste en la creación de una base de datos y una aplicación we
 
 - **utils:** Esta carpeta puede contiene scripts de utilidad que se utilizan en toda la aplicación.
 
-##Diagrama de secuencia
+## Diagrama de secuencia
 
 ![SecDiagram drawio (1)](https://github.com/MohammedChoudna0/Role-Playing-Game-MVC/assets/117014262/737a5466-8133-4663-a921-be7ae7c35f7f)
