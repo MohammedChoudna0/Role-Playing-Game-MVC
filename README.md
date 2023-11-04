@@ -25,23 +25,21 @@ Este proyecto consiste en la creación de una base de datos y una aplicación we
 
 - **controllers:** Esta carpeta contiene los controladores para las entidades `creature` y `user`.
 
-- **models:** Esta carpeta contiene los modelos que representan las entidades de la aplicación. La subcarpeta `validations` puede contener scripts de validación para los datos de las entidades.
+- **models:** Esta carpeta contiene los modelos que representan las entidades de la aplicación. La subcarpeta `validations` contiene scripts de validación para los datos de las entidades.
 
-- **private/views:** Esta carpeta contiene las vistas privadas que solo pueden ser accedidas por usuarios autenticados. La subcarpeta `creature` puede contener vistas específicas para las criaturas.
+- **private/views:** Esta carpeta contiene las vistas privadas que solo pueden ser accedidas por usuarios autenticados. La subcarpeta `creature` puede contiene las vistas específicas para las criaturas (Agregar , eliminar y actualizar).
 
-- **public/views:** Esta carpeta contiene las vistas públicas que pueden ser accedidas por cualquier usuario. La subcarpeta `user` puede contener vistas específicas para los usuarios.
+- **public/views:** Esta carpeta contiene las vistas públicas que pueden ser accedidas por cualquier usuario. La subcarpeta `user` contiene vistas específicas para los usuarios (Login y Sign Up).
 
-- **assets:** Esta carpeta contiene los recursos estáticos utilizados en la aplicación, como imágenes, scripts y hojas de estilo. La subcarpeta `img` puede contener las imágenes utilizadas en la aplicación.
+- **assets:** Esta carpeta contiene los recursos estáticos utilizados en la aplicación, como imágenes.
 
-- **lib:** Esta carpeta puede contener bibliotecas y dependencias utilizadas en la aplicación.
+- **persistence:** Esta carpeta contiene los scripts y configuraciones relacionados con la persistencia de datos (conf , DAO y script SQL para crear la base de datos).
 
-- **persistence:** Esta carpeta contiene los scripts y configuraciones relacionados con la persistencia de datos.
+- **bd:** Esta carpeta contiene scripts de base de datos.
 
-- **bd:** Esta carpeta puede contener scripts de base de datos.
+- **conf:** Esta carpeta contiene archivos de configuración para la base de datos.
 
-- **conf:** Esta carpeta puede contener archivos de configuración para la base de datos.
+- **DAO:** Esta carpeta contiene los Objetos de Acceso a Datos (DAO) para las entidades de la aplicación.
 
-- **DAO:** Esta carpeta puede contener los Objetos de Acceso a Datos (DAO) para las entidades de la aplicación.
-
-- **utils:** Esta carpeta puede contener scripts de utilidad que se utilizan en toda la aplicación.
+- **utils:** Esta carpeta puede contiene scripts de utilidad que se utilizan en toda la aplicación.
 
